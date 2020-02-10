@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Rest Assured Test Suite">
+	<test name="Verify Get Agents API">
+		<classes>
+			<class name="restassured.Testcase1" />
+		</classes>
+	</test>
+	<test name="Verify Create User API">
+		<classes>
+			<class name="restassured.Testcase2" />
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rest Assured Test Suite]">
+  <test thread-count="5" name="Verify Create User API(failed)">
+    <classes>
+      <class name="restassured.Testcase2">
+        <methods>
+          <include name="reset"/>
+          <include name="setup"/>
+          <include name="createUser"/>
+        </methods>
+      </class> <!-- restassured.Testcase2 -->
+    </classes>
+  </test> <!-- Verify Create User API(failed) -->
+</suite> <!-- Failed suite [Rest Assured Test Suite] -->

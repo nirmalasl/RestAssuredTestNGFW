@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [RestAssured Test Suite]" parallel="tests">
+  <test thread-count="1" name="Verify Get Agents API(failed)" parallel="tests">
+    <classes>
+      <class name="restassured.Testcase1">
+        <methods>
+          <include name="setup"/>
+          <include name="createUser"/>
+          <include name="reset"/>
+        </methods>
+      </class> <!-- restassured.Testcase1 -->
+    </classes>
+  </test> <!-- Verify Get Agents API(failed) -->
+  <test thread-count="1" name="Verify Create User API(failed)" parallel="tests">
+    <classes>
+      <class name="restassured.Testcase2">
+        <methods>
+          <include name="reset"/>
+          <include name="setup"/>
+          <include name="createUser"/>
+        </methods>
+      </class> <!-- restassured.Testcase2 -->
+    </classes>
+  </test> <!-- Verify Create User API(failed) -->
+</suite> <!-- Failed suite [RestAssured Test Suite] -->
